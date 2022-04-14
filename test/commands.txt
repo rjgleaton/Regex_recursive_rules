@@ -1,0 +1,28 @@
+(in2post|regex --no-op|pre2in) < input.txt > no-op.txt
+(in2post|regex --empty) < input.txt > empty.txt
+(in2post|regex --has-epsilon) < input.txt > has-epsilon.txt
+(in2post|regex --has-nonepsilon) < input.txt > has-nonepsilon.txt
+(in2post|regex --infinite) < input.txt > infinite.txt
+(in2post|regex --starts-with a) < input.txt > starts-with-a.txt
+(in2post|regex --starts-with b) < input.txt > starts-with-b.txt
+(in2post|regex --starts-with c) < input.txt > starts-with-c.txt
+(in2post|regex --starts-with d) < input.txt > starts-with-d.txt
+(in2post|regex --starts-with e) < input.txt > starts-with-e.txt
+(in2post|regex --starts-with f) < input.txt > starts-with-f.txt
+(in2post|regex --ends-with a) < input.txt > ends-with-a.txt
+(in2post|regex --ends-with b) < input.txt > ends-with-b.txt
+(in2post|regex --ends-with c) < input.txt > ends-with-c.txt
+(in2post|regex --ends-with d) < input.txt > ends-with-d.txt
+(in2post|regex --ends-with e) < input.txt > ends-with-e.txt
+(in2post|regex --ends-with f) < input.txt > ends-with-f.txt
+(in2post|regex --reverse|pre2in) < input.txt > reverse.txt
+(in2post|regex --prefixes|pre2in) < input.txt > prefixes.txt
+(in2post|regex --suffixes|pre2in) < input.txt > suffixes.txt
+(in2post|regex --b-before-a|pre2in) < input.txt > b-before-a.txt
+(in2post|regex --drop-one|pre2in) < input.txt > drop-one.txt
+(in2post|regex --strip a|pre2in) < input.txt > strip-a.txt
+(in2post|regex --strip b|pre2in) < input.txt > strip-b.txt
+(in2post|regex --strip c|pre2in) < input.txt > strip-c.txt
+(in2post|regex --strip d|pre2in) < input.txt > strip-d.txt
+(in2post|regex --strip e|pre2in) < input.txt > strip-e.txt
+(in2post|regex --strip f|pre2in) < input.txt > strip-f.txt
