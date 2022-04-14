@@ -1,0 +1,4 @@
+Build:
+	javac regex.java
+Run:
+	java regex
